@@ -5,7 +5,8 @@ import java.util.List;
 import tn.esprit.spring.entities.User;
 
 public interface IUserService { 
-	 
+
+//	commentaire
 	List<User> retrieveAllUsers(); 
 	User addUser(User u);
 	void deleteUser(String id);
